@@ -10,14 +10,11 @@ export const Container = styled.div `
     justify-content: center;
 
     background-color: #fff;
-    background-image:
-    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-    linear-gradient(#eee .1em, transparent .1em);
     background-size: 100% 1.2em;
 `
 
 export const Content = styled.div `
-    width: 19rem;
+    width: auto;
     height: auto;
     padding: 1rem .5rem;
 

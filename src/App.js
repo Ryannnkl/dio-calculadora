@@ -3,7 +3,6 @@ import Button from './components/Button'
 
 import { Container, Content, ContentButtons } from './styles'
 import { useState } from 'react'
-import Footer from './components/Footer'
 
 const App = () => {
   const [currentNumber, setCurrentNumber] = useState('0')
@@ -117,7 +116,6 @@ const App = () => {
           <Button label="+" onClick={handleSumNumbers}/>
         </ContentButtons>
       </Content>
-      <Footer />
     </Container>
   );
 }
